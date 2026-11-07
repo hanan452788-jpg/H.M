@@ -1,0 +1,12 @@
+{
+  "name": "pawhome-workspace",
+  "version": "1.0.0",
+  "description": "PawHome - Full-Stack Pet Adoption Web Application",
+  "type": "module",
+  "scripts": {
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  }
+}
